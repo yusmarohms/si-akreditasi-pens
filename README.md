@@ -13,20 +13,22 @@ Aplikasi Berbasis Web Sistem Informasi Monitoring Akreditasi Program Studi PENS 
 
 2.	User
   *	Melihat Data
-    User dapat melihat seluruh data mulai dari data program studi hingga data SPM dan Tim Akreditasi.
+    - User dapat melihat seluruh data mulai dari data program studi hingga data SPM dan Tim Akreditasi.
 
 3.	SPM
   *	Mengelola Data Akreditasi
-    SPM mengelola data akreditasi dengan aksi CRUD (Create, Read, Update, Delete). Akreditasi di sini terbagi menjadi 2, yaitu Akreditasi Program Studi untuk LAM Infokom LAM Teknik. 
+    - SPM mengelola data akreditasi dengan aksi CRUD (Create, Read, Update, Delete). Akreditasi di sini terbagi menjadi 2, yaitu Akreditasi Program Studi untuk LAM Infokom LAM Teknik. 
   *	Mengedit Data File Akreditasi
-    Data file akreditasi yang sudah diinputkan oleh Tim Akreditasi dapat diedit oleh SPM untuk diberi keterangan atau catatan terhadap status kelengkapan data yang telah ada. Dengan cara ini SPM juga dapat melakukan monitoring terhadap file akreditasi program studi.
+    - Data file akreditasi yang sudah diinputkan oleh Tim Akreditasi dapat diedit oleh SPM untuk diberi keterangan atau catatan terhadap status kelengkapan data yang telah ada. Dengan cara ini SPM juga dapat melakukan monitoring terhadap file akreditasi program studi.
   *	Mengelola Data Tim Akreditasi
-    Data Tim Akreditasi juga dapat dikelola oleh SPM di mana hak akses diberikan ke Tim Akreditasi agar dapat mengakses sistem dengan cara menambah akun baru untuk Tim Akreditasi.
+    - Data Tim Akreditasi juga dapat dikelola oleh SPM di mana hak akses diberikan ke Tim Akreditasi agar dapat mengakses sistem dengan cara menambah akun baru untuk Tim Akreditasi.
   * Mengelola Data Rencana Akreditasi
-    Di sini terdapat fitur tambahan yaitu Rencana Akreditasi. Data Rencana Akreditasi dikelola oleh SPM di mana SPM dapat merencanakan pengajuan akreditasi program studi PENS dengan cara menentukan kapan waktu periode atau batch untuk pengajuan akreditasi dan batas waktu pengajuan akreditasi program studi. 
+    - Di sini terdapat fitur tambahan yaitu Rencana Akreditasi. Data Rencana Akreditasi dikelola oleh SPM di mana SPM dapat merencanakan pengajuan akreditasi program studi PENS dengan cara menentukan kapan waktu periode atau batch untuk pengajuan akreditasi dan batas waktu pengajuan akreditasi program studi. 
 
 4.	Tim Akreditasi
   *	Melihat Data Akreditasi
-    Ketika masuk ke sistem, Tim Akreditasi hanya dapat melihat program studi yang diakreditasi oleh Tim Akreditasi, termasuk pada data akreditasi yang sudah dimasukkan oleh SPM. 
+    - Ketika masuk ke sistem, Tim Akreditasi hanya dapat melihat program studi yang diakreditasi oleh Tim   Akreditasi, termasuk pada data akreditasi yang sudah dimasukkan oleh SPM. 
   *	Mengelola Data File Akreditasi
-    Di sini, file akreditasi berupa dokumen-dokumen administrasi untuk pengajuan akreditasi dikelola oleh Tim Akreditasi sesuai dengan program studi yang diambil.
+    - Di sini, file akreditasi berupa dokumen-dokumen administrasi untuk pengajuan akreditasi dikelola oleh Tim Akreditasi sesuai dengan program studi yang diambil.
+
+- bootstrap template: https://github.com/ColorlibHQ/AdminLTE/releases
