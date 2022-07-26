@@ -241,9 +241,9 @@ else{
                             ?>
                           </select>
                         </div>
-                        <div class="form-group" readonly>
+                        <div class="form-group">
                           <label for="InputPeringkat1">Peringkat Akreditasi:</label>
-                          <select name="id_peringkat" class="custom-select" id="InputPeringkat1" readonly>
+                          <select name="id_peringkat" class="custom-select" id="InputPeringkat1">
                             <?php
                               include('../koneksi.php');
                               $statement = "SELECT * FROM akreditasi
@@ -255,6 +255,15 @@ else{
                                   echo "<option value=$per[10]>$per[11]</option>";
                               }
                             ?>
+                            <?php
+                              include('../koneksi.php');
+                              $statement2 = "SELECT * FROM peringkat";
+                              $stid2 = oci_parse($koneksi, $statement2);
+                              oci_execute($stid2);
+                              while ($per2 = oci_fetch_row($stid2)) {
+                                echo "<option value=$per2[0] >$per2[1]</option>";
+                              }
+                            ?>
                           </select>
                         </div>
                         <div class="form-group">
@@ -264,7 +273,7 @@ else{
                         </div>
                         <div class="form-group">
                           <label for="exampleKedaluwarsa1">Tanggal Kedaluwarsa:</label>
-                          <input type="text" name="kadaluwarsa" value="<?= $row[2]; ?>" class="form-control" id="exampleKedaluwarsa1">
+                          <input type="date" name="kadaluwarsa" value="<?= $row[2]; ?>" class="form-control" id="exampleKedaluwarsa1">
                         </div>
                       </div>
                       <div class="col">
